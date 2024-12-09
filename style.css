@@ -1,0 +1,136 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #e8f4fc; /* Softer blue for better contrast */
+}
+
+h1, p {
+    text-align: center;
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #035254;
+    padding: 1rem 2rem;
+    color: white;
+}
+
+.navbar .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links li {
+    margin: 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ffcc00;
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #03473d;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2); /* Shadow for distinction */
+}
+
+.footer p {
+    margin: 0.5rem 0;
+}
+
+/* Main Content */
+.content {
+    padding: 2rem;
+    background-color: rgb(27, 209, 73);
+    margin: 2rem auto;
+    max-width: 900px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Slightly deeper shadow */
+}
+
+/* Images Section */
+.images-section {
+    display: flex;
+    justify-content: center; /* Center the images horizontally */
+    align-items: flex-start;
+    gap: 3rem; /* Increase space between images */
+    margin: 3rem auto; /* Space from top and bottom */
+    padding: 2rem;
+    max-width: 1200px;
+    background-color: #e8e809; /* White background for contrast */
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.image-container {
+    text-align: center;
+}
+
+.image-container img {
+    width: 300px; /* Increased width */
+    height: 300px; /* Increased height */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Stronger shadow for visibility */
+    object-fit: cover;
+}
+
+.image-container p {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    color: #444;
+}
+
+/* Fix for Footer White Space */
+html, body {
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto; /* Pushes the footer to the bottom */
+}
+
+/* Attractive Enhancements */
+button {
+    display: block;
+    margin: 2rem auto;
+    padding: 0.8rem 1.5rem;
+    background-color: #8a8204;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0de9d3;
+}
